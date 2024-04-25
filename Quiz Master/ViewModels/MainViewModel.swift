@@ -10,7 +10,7 @@ import Foundation
 import UIKit
 
 class MainViewModel: ObservableObject {
-  private let totalQuestions = 5
+  private let totalQuestions = 20
 
   private let listCategory = QuizCategory.allCases
   private let listCategoryDesc = QuizCategory.allCases.map(\.description)
